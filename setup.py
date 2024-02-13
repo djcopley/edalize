@@ -14,7 +14,7 @@ setup(
     name="edalize",
     use_scm_version={
         "relative_to": __file__,
-        "write_to": "edalize/version.py",
+        "write_to": "src/edalize/version.py",
     },
     packages=["edalize", "edalize.tools", "edalize.flows"],
     package_data={
